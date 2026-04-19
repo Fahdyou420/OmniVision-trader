@@ -1,4 +1,3 @@
-Now I have full context on all 4 skills. Let me architect and build SMC PRO V3 — integrating a `CMacroEngine` (DXY/US10Y/VIX correlation layer) into the MQL5 EA, dashboard API, and React UI.Now the React dashboard and server updates:Now copy all to outputs:Here's the complete SMC PRO V3 upgrade — 5 files, all wired together.
 
 ---
 
