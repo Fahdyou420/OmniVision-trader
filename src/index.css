@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-deep: #050507;
+  --color-bg-surface: #0f1014;
+  --color-accent-cyan: #00f3ff;
+  --color-accent-green: #00ffa3;
+  --color-accent-gold: #ffcc00;
+  --color-accent-red: #ff3b6b;
+  --color-text-primary: #e0e0e0;
+  --color-text-secondary: #80808a;
+
+  --font-mono: 'Courier New', Courier, monospace;
+  --font-sans: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+@layer utilities {
+  .chart-grid {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 40px 40px;
+  }
+}
